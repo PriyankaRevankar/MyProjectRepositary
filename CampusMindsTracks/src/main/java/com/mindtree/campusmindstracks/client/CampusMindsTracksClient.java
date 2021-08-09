@@ -79,7 +79,7 @@ public class CampusMindsTracksClient {
 		for (Map.Entry<Integer, CampusMind> entry :campusminds.entrySet() ) {
 			int key=entry.getKey();
 			CampusMind c=entry.getValue();
-			System.out.println(key+"   "+c);
+			System.out.println(key+" this is the value  "+c);
 			
 		}
 		
