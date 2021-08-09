@@ -27,7 +27,7 @@ public class CampusMindsTracksClient {
 				+ "press 5 to update duration of the track\n" 
 	            + "press 6 to get all the tracks sorted by name\n"
 				+ "press 7 to get all the campusmind sorted by mid\n" 
-				+ "press 8 to exit");
+				+ "press 8 to exit the program ");
 		System.out.println("enter your choice");
 		int choice = sc.nextInt();
 		return choice;
@@ -79,7 +79,7 @@ public class CampusMindsTracksClient {
 		for (Map.Entry<Integer, CampusMind> entry :campusminds.entrySet() ) {
 			int key=entry.getKey();
 			CampusMind c=entry.getValue();
-			System.out.println(key+"   "+c);
+			System.out.println(key+" this is the value  "+c);
 			
 		}
 		
